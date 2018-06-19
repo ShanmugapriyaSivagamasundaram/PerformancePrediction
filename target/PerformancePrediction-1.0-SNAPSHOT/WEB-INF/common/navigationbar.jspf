@@ -34,44 +34,37 @@
         %>
         <div class="btn-group dropdown">
             <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                <i class="glyphicon glyphicon-user"> <strong>${currentUserEmail}</strong></i>
-                
+                <i class="glyphicon glyphicon-user"></i>
                 <span class="caret"></span>
             </button>
 
-            <div class="dropdown-container" style="padding-right: 100px;">
-                <ul class="dropdown-menu">
-<!--                    <li>
-                        <div class="dropdown-toolbar">
-                            Signed in as<br>
-                            <strong>${currentUserEmail}</strong>
-                        </div> /dropdown-toolbar 
-                    </li>-->
+            <div class="dropdown-container">
 
+                <div class="dropdown-toolbar">
+                    Signed in as<br>
+                    <strong>${currentUserEmail}</strong>
+                </div><!-- /dropdown-toolbar -->
+
+                <ul class="dropdown-menu">
                     <li><a href="#">Your profile</a></li>
                     <li><a href="Logout">Log out</a></li>
-
-                    <li> 
-                        <div class="dropdown-footer">
-                             <i class="glyphicon glyphicon-cog"></i> Account Settings
-
-                        </div> <!--dropdown-footer --> 
-                        </li>
                 </ul>
 
-                <!--                
-                
-                            </div><!-- /dropdown-container -->
-            </div><!-- /dropdown -->
+                <div class="dropdown-footer">
+                    <i class="glyphicon glyphicon-cog"></i> Account Settings
+                </div><!-- /dropdown-footer -->
 
-            <% }%>
+            </div><!-- /dropdown-container -->
+        </div><!-- /dropdown -->
 
-
-
-
+        <% } %>
 
 
-            <!--                <a class="btn btn-outline-light inline-block scroll-link" href="#login" role="button">Login</a>-->
 
-        </div>
+
+
+
+        <!--                <a class="btn btn-outline-light inline-block scroll-link" href="#login" role="button">Login</a>-->
+
+    </div>
 </nav>

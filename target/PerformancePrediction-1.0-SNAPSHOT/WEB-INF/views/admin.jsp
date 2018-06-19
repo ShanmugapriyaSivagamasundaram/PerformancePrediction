@@ -1,6 +1,23 @@
-<%@include file="../common/header.jspf"%>
-<%@include file="../common/navigationbar.jspf"%>
-<p style="text-align: center">Click on the buttons inside the tabbed menu:</p>
+<%-- 
+    Document   : tabs
+    Created on : Jun 12, 2018, 9:10:53 PM
+    Author     : user
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link href="css/tabs.css" rel="stylesheet" type="text/css">       
+         <link rel="stylesheet" type="text/css" href="css/css.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--row-->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script><!--image -->
+       
+    </head>
+    <body>
+        <p>Click on the buttons inside the tabbed menu:</p>
 
         <div class="tab">    
           <button class="tablinks" onclick="openCity(event, 'student')" id="defaultOpen">Student</button>          
@@ -11,7 +28,7 @@
        <!--student Info--> 
      <div class="tabcontent" id="student">
     <h1>Student Register</h1>
-    <p style="align: center">Please fill in this form to add a Student Information.</p>
+    <p>Please fill in this form to add a Student Information.</p>
     <hr>
   
     <form style="background-color: blue">
@@ -202,5 +219,12 @@
   </div><!--close Father info-->
 </form>
 </div><!--parents info-->
+
+ 
+<script src="js/javasc.js" type="text/javascript"></script>
+
+
         
-<%@include file="../common/footer.jspf"%>
+        <script src="js/tabe.js" type="text/javascript"></script>
+    </body>
+</html>
